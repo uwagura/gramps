@@ -596,7 +596,7 @@ class DescendantOptions(MenuReportOptions):
 
         lifespan = BooleanOption(_("Show birth and death info"), True)
         lifespan.set_help(
-                _("Whether to show birth and death information in the report.")
+            _("Whether to show birth and death information in the report.")
         )
         menu.add_option(category_name, "lifespan", lifespan)
 
